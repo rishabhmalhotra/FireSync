@@ -10,5 +10,5 @@ user_address = user_select[0]
 
 s = socket()
 s.connect((user_address, 5))
-s.send("chutiya test 1")
+s.send("test 1")
 s.close()
